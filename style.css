@@ -1,0 +1,397 @@
+body {
+    --netlfix-color: #e50914;
+    background-color: #333;
+}
+
+.background-black {
+    background-color: black;
+}
+
+.netflix-first-container {
+    background: linear-gradient(0deg,rgba(0,0,0,0.5) 0,transparent 0%,rgba(0,0,0,.55) 0),
+    linear-gradient(0deg,rgba(0,0,0,.8) 0,transparent 60%,rgba(0,0,0,.8)),
+    url(images/Netflix-front-image.jpg) no-repeat center center;
+    background-size: cover;
+    background-color: rgba(0,0,0,.4);
+}
+
+.nav-wrapper{
+    
+    max-width: 1920px;
+}
+
+nav {
+    margin: 0 3.5rem;
+}
+
+
+nav button.btn {
+    --bs-btn-padding-x: 0.9rem;
+    --bs-btn-padding-y: 0.3rem;
+}
+
+.btn-danger {
+    --bs-btn-bg: #e50914;
+    --bs-btn-hover-bg: #e50914;
+}
+form .btn-danger{
+    --bs-btn-hover-bg: #fa0b17;
+}
+
+.netflix-logo {
+    width: 95px;
+    height: auto;
+}
+
+.form-select {
+    width: auto;
+    line-height: 1.5;
+    padding: 0.3rem 1rem;
+    font-size: 0.875rem;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0);
+    background-image: none;
+    margin: 0 0.75rem;
+}
+
+.form-select option {
+    background-color: rgb(78, 78, 78);
+}
+
+.netflix-second-container {
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.netflix-third-container {
+    max-width: 740px;
+    margin: 0 auto;
+}
+
+.netflix-third-container h1 {
+    font-weight: 700;
+    font-size: 3.125rem;
+}
+.netflix-third-container h4 {
+    font-weight: 400;
+    font-size: 1.625rem;
+}
+
+.netflix-third-container h2 {
+    font-weight: 400;
+}
+
+.netflix-second-container h4 {
+    font-weight: 400;
+}
+
+.netflix-second-container form,.netflix-eighth-container form {
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.netflix-second-container form .input-group input,
+.netflix-second-container form .input-group button,.netflix-eighth-container form .input-group input,
+.netflix-eighth-container form .input-group button {
+    border-radius: 0;
+    min-height: 3.5rem;
+}
+.netflix-second-container form .input-group .btn, .netflix-eighth-container form .input-group .btn{
+    --bs-btn-font-size: 1rem;
+}
+.netflix-second-container form h4,.netflix-eighth-container form h4{
+    font-weight: 400;
+    font-size: 1.125rem;
+}
+
+.netflix-fourth-container h1, .netflix-fifth-container h1, .netflix-sixth-container h1, .netflix-seventh-container h1{
+    font-size: 3.125rem;
+    line-height: 1.1;
+}
+.netflix-fourth-container h4, .netflix-fifth-container h4, .netflix-sixth-container h4, .netflix-seventh-container h4{
+    font-size: 1.625rem;
+    font-weight: 400;
+}
+.my-container{
+    bottom: 8%;
+    left: 15%;
+    width: 70%;
+    min-width: 15em;
+    padding: 0.5em 0.75em;
+}
+.my-container>img{
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+.my-container-2{
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin: 0.3em 0;
+}
+.show-title{
+    font-size: 0.95em;
+    font-weight: 700;
+}
+.downloading{
+    font-size: 0.9em;
+}
+.download-icon{
+    width: 3em;
+    height: 3.75em;
+    /* aspect-ratio: 1; */
+    background: url(images/download-icon.gif) 50% no-repeat;
+    background-size: 100%;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+.netflix-image{
+    max-width: 90%;
+    height: auto;
+    margin: 0 auto;
+}
+.netflix-video-bg{
+    left: 49.5%;
+    top: 48.5%;
+    height: 100%;
+    width: 100%;
+    max-width: 72%;
+    max-height: 54%;
+    transform: translate(-50%,-50%);
+}
+.sacred-games-video{
+    height: 100%;
+    left: 50%;
+    max-height: 47%;
+    max-width: 63%;
+    top: 34%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+.netflix-eighth-container .set-width{
+    max-width: 800px;
+    margin: 0 auto;
+}
+.netflix-eighth-container h1{
+    font-size: 3.125rem;
+}
+
+.accordion{
+    --bs-border-color: #333;
+    --bs-accordion-bg: #333;
+    --bs-accordion-color: #fff;
+    --bs-accordion-active-color: #fff;
+    --bs-accordion-active-bg: #333;
+    --bs-accordion-btn-focus-border-color: #333;
+    --bs-accordion-btn-focus-box-shadow: none;
+    --bs-accordion-btn-color: #fff;
+}
+.accordion-item, .accordion-button{
+    font-size: 1.625rem;
+}
+.accordion path{
+    fill: #fff;
+    stroke: #fff;
+}
+
+.netflix-ninth-container{
+    padding: 4.7rem 2.8rem;
+    color: #737373;;
+}
+.netflix-tenth-container{
+    margin: 0 auto;
+    max-width: 1000px;
+}
+.netflix-11th-container{
+    width: 90%;
+    margin: 0 auto;
+}
+.netflix-11th-container .form-select{
+    font-size: 1rem;
+}
+.netflix-11th-container a{
+    --bs-link-color: #737373;
+    text-decoration: none;
+}
+.netflix-11th-container a:hover{
+    --bs-link-color: #737373;
+    color: var(--bs-link-color);
+    text-decoration: underline;
+}
+.font-size-13{
+    font-size: 13px;
+}
+@media (max-width:399px){
+    .my-container{
+        padding: 0.25em 0.65em;
+    }
+}
+@media (max-width:549px) {
+    nav {
+        margin: 0 5%;
+    }
+    
+    nav button.btn {
+        --bs-btn-padding-x: 0.5rem;
+        --bs-btn-padding-y: 0.25rem;
+        --bs-btn-font-size: 0.9rem;
+    }
+
+    .netflix-second-container form .input-group,.netflix-eighth-container form .input-group {
+        width: 90%;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+
+    .netflix-second-container form .input-group input,.netflix-eighth-container form .input-group input {
+        width: 100%;
+        border-radius: 0;
+        min-height: 2.5rem;
+    }
+
+    .netflix-second-container form .input-group button,.netflix-eighth-container form .input-group button {
+        border-radius: 0;
+        min-height: 0.75rem;
+    }
+    .accordion-item, .accordion-button{
+        font-size: 1.125rem;
+    }
+    .netflix-third-container h1 {
+        font-weight: 700;
+        font-size: 1.75rem;
+    }
+    .netflix-third-container h4 {
+        font-weight: 400;
+        font-size: 1.125rem;
+    }
+    .netflix-fourth-container h1, .netflix-fifth-container h1, .netflix-sixth-container h1, .netflix-seventh-container h1{
+        font-size: 1.625rem;
+    }
+    .netflix-fourth-container h4, .netflix-fifth-container h4, .netflix-sixth-container h4, .netflix-seventh-container h4{
+        font-size: 1.125rem;
+    }
+    .my-container>img{
+        height: 3em;
+    }
+    .show-title{
+        font-size: 0.9em;
+        font-weight: 700;
+    }
+    .downloading{
+        font-size: 0.75em;
+    }
+    .download-icon{
+        height: 3em; 
+        background: url(images/download-icon.gif) 50% no-repeat;
+    }
+
+    .netflix-eighth-container h1{
+        font-size: 1.625rem;
+    }
+    .netflix-ninth-container{
+        padding: 3.125rem 5%;
+    }
+}
+@media (min-width:740px) {
+    .netflix-second-container form h4,.netflix-eighth-container form h4{
+        font-size: 1.45rem;
+    }
+    .netflix-second-container form .input-group .btn, .netflix-eighth-container form .input-group .btn{
+        --bs-btn-font-size: 1.25rem;
+    }
+}
+@media (min-width:550px) and (max-width:949px) {
+    nav {
+        margin: 0 45px;
+    }
+
+    .form-select {
+        margin-right: 1.5rem;
+    }
+
+    .netflix-logo {
+        width: 115px;
+        height: auto;
+    }
+
+    .netflix-second-container form .input-group,.netflix-eighth-container form .input-group {
+        width: 90%;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+
+    .netflix-second-container form .input-group input,.netflix-eighth-container form .input-group input {
+        width: 100%;
+        border-radius: 0;
+        min-height: 3rem;
+    }
+
+    .netflix-second-container form .input-group button,.netflix-eighth-container form .input-group button {
+        border-radius: 0;
+        min-height: 1.5rem;
+    }
+    .accordion-item, .accordion-button{
+        font-size: 1.25rem;
+    }
+
+    .netflix-fourth-container h1, .netflix-fifth-container h1, .netflix-sixth-container h1, .netflix-seventh-container h1{
+        font-size: 2.5rem;
+    }
+    .netflix-fourth-container h4, .netflix-fifth-container h4, .netflix-sixth-container h4, .netflix-seventh-container h4{
+        font-size: 1.25rem;
+    }
+    .netflix-eighth-container h1{
+        font-size: 2.5rem;
+    }
+}
+@media (max-width: 949px){
+    .my-container{
+        padding: 0.35em 0.75em;
+    }
+}
+@media (max-width: 991px){
+    .my-container>img{
+        height: 4em;
+    }
+}
+@media (min-width:992px) and (max-width:1449px){
+    .my-container>img{
+        height: 3.5em;
+    }
+}
+@media (min-width:950px) and (max-width:1449px) {
+    .form-select {
+        margin-right: 2rem;
+    }
+
+    .netflix-logo {
+        width: 134px;
+        height: auto;
+    }
+
+    .netflix-second-container form h4,.netflix-eighth-container form h4{
+        font-size: 1.2rem;
+    }
+    
+
+}
+
+@media (min-width:1450px) {
+    .form-select {
+        margin-right: 2rem;
+    }
+
+    .netflix-logo {
+        width: 167px;
+        height: auto;
+    }
+    .netflix-second-container form h4,.netflix-eighth-container form h4{
+        font-size: 1.2rem;
+    }
+    .netflix-third-container h1 {
+        font-weight: 700;
+        font-size: 4rem;
+    }
+    .my-container>img{
+        height: 5em;
+    }
+}
